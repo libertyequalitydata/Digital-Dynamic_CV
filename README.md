@@ -1,5 +1,6 @@
 # Digital-Dynamic_CV
 
+### Project Overview
 Repository that tracks the development of the Digital Dynamic CV project as a GraphQL data model.
 
 ### Version Summary
