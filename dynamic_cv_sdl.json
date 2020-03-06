@@ -1,0 +1,50 @@
+schema {
+  query: Query
+}
+
+type Query {
+  basic(id: ID!): Basic
+  cursus(id: ID!): Cursus
+  grades(id: ID!): Grades
+  skills(id: ID!): Skills
+  experience(id: ID!): Experience
+  orientationpaths(id: ID!): OrientationPaths
+}
+
+type Basic {
+  id: ID!
+  name: String!
+  age: Int!
+  gender: String!
+}
+
+type Cursus {
+  id: ID!
+
+}
+
+type Grades {
+  id: ID!
+  gpa: Int!
+  courses: String!
+
+}
+
+type Skills {
+  id: ID!
+  technical: String!
+  nonTechnical: String!
+
+}
+
+type Experience {
+  id: ID!
+  companies: String!
+  years: Int!
+
+}
+
+type OrientationPaths {
+  id: ID!
+
+}
